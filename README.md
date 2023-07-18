@@ -1,9 +1,10 @@
-<img src="./ze-bg.jpeg" heigth="100px" />
-
 # Zénigma Desafio Front-End - React
 
-Este repositório contém dois desafios de codificação front-end utilizando React. Esses exercícios surgiram como parte de um desafio técnico proposto pelo [Zé Delivery](https://www.ze.delivery/) em 2022. O desafio está separado em dois branches específicos: `challenge-1` e `challenge-2`. Esses desafios têm como objetivo testar suas habilidades em desenvolvimento com React, bem como seu conhecimento sobre as features do JavaScript.  
-**O tempo dado para resolução deste dois desafios foi cerca de 60 min.**  
+<img src="./ze-bg.jpeg" width="100% " height="600" alt="zé delivery logo" />
+
+Este repositório contém dois desafios de codificação front-end utilizando React. Esses exercícios surgiram como parte de um desafio técnico proposto pelo [Zé Delivery](https://www.ze.delivery/) em 2022. O desafio está separado em duas branches: `challenge-1` e `challenge-2`.  
+Esses desafios têm como objetivo testar suas habilidades em desenvolvimento com React, bem como seu conhecimento sobre as features do JavaScript.  
+**O tempo dado para resolução deste dois desafios foi cerca de 60 min.**
 
 Se você quiser verificar a solução desses exercícios, você pode acessar os branches `solution/challenge-1` e `solution/challenge-2`, ou pode conferir as soluções no YouTube.
 
@@ -22,7 +23,7 @@ O desafio 1 está disponível no branch `challenge-1`. Este desafio foi projetad
 - **📚 Tópicos abordados**: Componentes funcionais, estados, eventos, renderização condicional, etc.
 - **📌 Instruções**: Caso queira verificar se sua solução está de acordo com os testes, você pode utilizar os seguintes comandos:
 
-  _*Obs: A lista de elementos gerada deve conter a role `menuitem`._
+  _\*Obs: A lista de elementos gerada deve conter a role `menuitem`._
 
 ```bash
   npm run test
@@ -34,19 +35,25 @@ O desafio 1 está disponível no branch `challenge-1`. Este desafio foi projetad
 
 O desafio 2 está disponível no branch `challenge-2`. Este desafio tem como objetivo testar suas habilidades em gerenciamento de estado com useReducer, manipulação de eventos e interação com inputs. A seguir, estão algumas informações adicionais sobre o desafio 2:
 
-- **📄 Descrição**:   
+- **📄 Descrição**:  
   Este desafio envolve 2 botões e um input, chamados `add`, `subtract` e um input do tipo `number`. O aplicativo deve funcionar da seguinte maneira:
   - Caso não haja nenhum valor no `input` e o botão `add` seja clicado, deve-se adicionar **1** ao valor salvo no estado.
   - Caso não haja nenhum valor no `input` e o botão `subtract` seja clicado, deve-se subtrair **1** do valor salvo no estado.
   - Caso haja algum valor no `input` e o botão `add` e/ou `subtract` seja clicado, esse valor deve ser adicionado e/ou subtraído ao valor salvo no estado.
   - O valor salvo no estado deve ser mostrado dentro de uma `<div data-testid="results"></div>`.
-  É **obrigatório** o uso do `useReducer` para gerenciar o estado deste componente.
+    É **obrigatório** o uso do `useReducer` para gerenciar o estado deste componente.
 - **📚 Tópicos abordados**: Gerenciamento de estado com useReducer, manipulação de eventos, interação com inputs, etc.
 - **📌 Instruções**: Caso queira verificar se sua solução está de acordo com os testes, você pode utilizar os seguintes comandos:
 
-  _*Obs: Verifique se os elementos estão com o mesmo nome/data-testid do teste!*_
+  _\*Obs: Verifique se os elementos estão com o mesmo nome/data-testid do teste!_
 
   ```bash
   npm run test
   # ou
   yarn test
+  ```
+
+## 🌐 Compartilhando sua solução
+
+Caso realize o desafio e queira compartilhar sua solução no linkedin, não esqueça de me marcar para que eu possa ver! 😄  
+[Linkedin](https://www.linkedin.com/in/murillo-wolf-dev/)
