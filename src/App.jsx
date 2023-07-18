@@ -26,7 +26,7 @@ function App() {
       </div>
       <div>
         <input
-          type="number"
+          type="text"
           data-testid="counter"
           onChange={handleChange}
           value={state.input}
