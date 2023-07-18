@@ -1,36 +1,16 @@
 import { useReducer } from "react";
-import reducer, { changeInput, add, subtract } from "./reducer";
 
 function App() {
-  const reucerInitialState = {
-    total: 0,
-    input: 0,
-  };
-
   const [state, dispatch] = useReducer(reducer, reucerInitialState);
-
-  const handleChange = ({ target: { value } }) => {
-    changeInput(value, dispatch);
-  };
-
   return (
     <div>
-      <div data-testid="results">{state.total}</div>
+      <div data-testid="results">{state}</div>
       <div>
-        <button type="button" onClick={() => add(dispatch)}>
-          Add
-        </button>
-        <button type="button" onClick={() => subtract(dispatch)}>
-          Subtract
-        </button>
+        <button type="button">Add</button>
+        <button type="button">Subtract</button>
       </div>
       <div>
-        <input
-          type="text"
-          data-testid="counter"
-          onChange={handleChange}
-          value={state.input}
-        />
+        <input type="text" data-testid="counter" />
       </div>
     </div>
   );
