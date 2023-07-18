@@ -1,6 +1,6 @@
 // THIS FILE IS FOR IN CASE WE WANT TO SEPARETE REDUCER LOGIC FROM APP COMPONENT
 // import { vitest } from "vitest";
-// import reducer, { changeInput, add, subtract, ACTIONS_TYPES } from "./reducer";
+// import reducer, { changeInput, add, subtract, ACTIONS_TYPES } from "../reducer";
 
 // describe("Reducer", () => {
 //   test("should handle CHANGE_INPUT action", () => {
