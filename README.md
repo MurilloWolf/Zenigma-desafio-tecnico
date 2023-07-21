@@ -11,7 +11,7 @@ Se você quiser verificar a solução desses exercícios, você pode acessar os 
 **Lembrando que não existe uma solução consolidada, cada uma delas é apenas a solução encontrada por mim!**
 
 - [📌 Teste Técnico do Zé Delivery. pt1 - Front-end](https://www.youtube.com/watch?v=5uWas1qL6E0&ab_channel=MurilloWolf)
-- [📌 Teste Técnico do Zé Delivery. pt2 - Front-end](https://www.youtube.com/watch?v=5uWas1qL6E0&ab_channel=MurilloWolf)
+- [📌 Teste Técnico do Zé Delivery. pt2 - Front-end](https://www.youtube.com/watch?v=yFlx_K1EX48&ab_channel=MurilloWolf)
 
 ## Desafio 1: CardList
 
